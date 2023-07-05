@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.cur-po{
+    cursor: pointer;
+}
+
 /* footer-heart */
 .heart{
     color: var(--chefkart-orange);

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Header from '../../Components/common/header';
-import TabOptions from '../../Components/common/tabOptions';
+import TabOptions from '../../Components/common/ChefOptions';
 import Footer from '../../Components/common/footer';
-import Veg from "../../Components/Veg";
-import NonVeg from "../../Components/NonVeg";
+import ChefIt from "../../Components/ChefIt";
+import ChefParty from "../../Components/ChefParty";
 
 const HomePage = () => {
 
@@ -23,12 +23,12 @@ const HomePage = () => {
 // func to get the correct screen for two diff food category.
 const getCorrectTab = (tab) => {
   switch (tab) {
-    case "Veg":
-      return <Veg />
-    case "Non-Veg":
-      return <NonVeg/>
+    case "ChefIt":
+      return <ChefIt />
+    case "ChefParty":
+      return <ChefParty />
     default:
-      return <Veg/>
+      return <ChefIt />
   }
 }
 
