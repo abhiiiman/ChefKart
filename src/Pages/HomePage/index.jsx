@@ -4,6 +4,7 @@ import TabOptions from '../../Components/common/ChefOptions';
 import Footer from '../../Components/common/footer';
 import ChefIt from "../../Components/ChefIt";
 import ChefParty from "../../Components/ChefParty";
+import Continentals from '../../Components/common/Continentals';
 
 const HomePage = () => {
 
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Header />
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectTab(activeTab)}
+      <Continentals/>
       <Footer />
     </div>
   )
