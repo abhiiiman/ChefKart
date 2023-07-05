@@ -1,0 +1,9 @@
+#root {
+  --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  --border-white: rgb(232, 232, 232);
+  --primary-bg: rgb(255, 255, 255);
+  --chefkart-gray: #828282;
+  --chefkart-orange: #ff961f;
+  --gray: rgb(207 207 207);
+  --chefkart-white: #ffffff;
+}
