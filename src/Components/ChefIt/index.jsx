@@ -1,6 +1,7 @@
 import React from 'react';
 import "./ChefIt.css";
 import Continentals from '../common/Continentals';
+import ChefItCollections from '../ChefIt/ChefItCollections';
 
 const chefItContinentals = [
     {
@@ -29,7 +30,8 @@ const ChefIt = () => {
     return (
         <div>
             <div className="max-width">
-                <Continentals contList={chefItContinentals}/>
+                <Continentals contList={chefItContinentals} />
+                <ChefItCollections />
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./ChefParty.css";
 import Continentals from '../common/Continentals';
+import ChefPartyCollections from './ChefPartyCollections';
 
 const chefPartyContinentals = [
     {
@@ -34,6 +35,7 @@ const ChefParty = () => {
         <div>
             <div className="max-width">
                 <Continentals contList={chefPartyContinentals} />
+                {<ChefPartyCollections />}
             </div>
         </div>
     )

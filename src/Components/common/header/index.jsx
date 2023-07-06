@@ -17,22 +17,22 @@ const Header = () => {
                 <strong>05 July 2023</strong>
               </div>
             </div>
-            <i className="fa-solid fa-caret-down absolute-center caret-icon"></i>
+            <i className="fa-solid fa-caret-down absolute-center caret-icon cur-po"></i>
           </div>
           <div className="calendar-time-separator"></div>
           <div className="time-icon-name">
             <i className="fa-solid fa-stopwatch absolute-center time-icon"></i>
-            <div><strong>10:30 PM - 12:30 PM</strong></div>
+            <div className='cur-po'><strong>10:30 PM - 12:30 PM</strong></div>
           </div>
         </div>
         <div className="contact-btn btn">Contact Us</div>
         <div className="profile-wrapper">
-          <img 
-          src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/burger_icon_33cb06d073.svg" 
-          alt="menu"
-          className='header-profile-image'/>
+          <img
+            src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/burger_icon_33cb06d073.svg"
+            alt="menu"
+            className='header-profile-image' />
           <span className="header-username">Abhijit</span>
-          <i className="fa-solid fa-angle-down profile-drop-down"></i>
+          <i className="fa-solid fa-angle-down profile-drop-down cur-po"></i>
         </div>
       </div>
     </div>

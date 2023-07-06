@@ -9,7 +9,7 @@ import Continentals from '../../Components/common/Continentals';
 const HomePage = () => {
 
   // creating state for the screen here.
-  const [activeTab, setActiveTab] = useState("Veg");
+  const [activeTab, setActiveTab] = useState("ChefIt");
 
   return (
     <div>
