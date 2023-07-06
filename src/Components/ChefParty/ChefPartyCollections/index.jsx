@@ -16,7 +16,6 @@ const settings = {
 
 const ChefPartyCollections = () => {
 
-    const [dishes, setDishes] = useState([]);
     const [popularDishes, setPopularDishes] = useState([]);
 
     useEffect(() => {
@@ -25,8 +24,7 @@ const ChefPartyCollections = () => {
             .then(response => response.json())
             .then(data => {
                 // Extracting the dishes and popularDishes from the data
-                const { dishes, popularDishes } = data;
-                setDishes(dishes);
+                const { popularDishes } = data;
                 setPopularDishes(popularDishes);
             })
             .catch(error => {
@@ -35,16 +33,18 @@ const ChefPartyCollections = () => {
     }, []);
 
     return (
-        <div className="chef-party-collections">
-            <div className="max-width">
-                <div className='collection-title'>Popular Dishes for Party by our Chefs</div>
+        <div className="bottom-line">
+            <div className="chef-party-collections">
+                <div className="max-width">
+                    <div className='collection-title'>Popular Dishes for Party by our Chefs</div>
 
-                <Slider {...settings}>
-                    {popularDishes.map((dish) => {
-                        return <PopularItems item={dish} />;
-                    })}
-                </Slider>
+                    <Slider {...settings}>
+                        {popularDishes.map((dish) => {
+                            return <PopularItems item={dish} />;
+                        })}
+                    </Slider>
 
+                </div>
             </div>
         </div>
     )

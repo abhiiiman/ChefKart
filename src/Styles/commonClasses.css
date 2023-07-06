@@ -20,6 +20,11 @@
     font-weight: 600;
 }
 
+.bottom-line{
+    box-shadow: var(--border-white) 0px -0.5px 0px inset;
+    padding-bottom: 20px;
+}
+
 /* footer-heart */
 .heart{
     color: var(--chefkart-orange);

@@ -33,16 +33,18 @@ const ChefPartyCollections = () => {
   }, []);
 
   return (
-    <div className="chef-party-collections">
-      <div className="max-width">
-        <div className='collection-title'>Popular Dishes for Party by our Chefs</div>
+    <div className="bottom-line">
+      <div className="chef-party-collections">
+        <div className="max-width">
+          <div className='collection-title'>Popular Dishes for You</div>
 
-        <Slider {...settings}>
-          {popularDishes.map((dish) => {
-            return <PopularItems item={dish} />;
-          })}
-        </Slider>
+          <Slider {...settings}>
+            {popularDishes.map((dish) => {
+              return <PopularItems item={dish} />;
+            })}
+          </Slider>
 
+        </div>
       </div>
     </div>
   )
