@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ChefKart/static/css/main.c63c5e2d.css",
+    "main.js": "/ChefKart/static/js/main.b06d6097.js",
+    "static/js/787.82efc8f9.chunk.js": "/ChefKart/static/js/787.82efc8f9.chunk.js",
+    "index.html": "/ChefKart/index.html",
+    "main.c63c5e2d.css.map": "/ChefKart/static/css/main.c63c5e2d.css.map",
+    "main.b06d6097.js.map": "/ChefKart/static/js/main.b06d6097.js.map",
+    "787.82efc8f9.chunk.js.map": "/ChefKart/static/js/787.82efc8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c63c5e2d.css",
+    "static/js/main.b06d6097.js"
+  ]
+}
