@@ -40,7 +40,9 @@ const ChefPartyCollections = () => {
 
           <Slider {...settings}>
             {popularDishes.map((dish) => {
-              return <PopularItems item={dish} />;
+              return (
+                <PopularItems item={dish} />
+              );
             })}
           </Slider>
 
